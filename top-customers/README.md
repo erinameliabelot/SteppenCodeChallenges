@@ -53,3 +53,6 @@ When run on that test data, you should get this result:
 | 1996 | 7 | 1 | 1842
 | 1996 | 8 | 3 | 529
 | 1996 | 9 | 5 | 1002
+
+
+<!-- I think it's something like: select id, from total_monthly_order_value from order_line_items group by id, max(total_monthly_order_value) order by id;-->
