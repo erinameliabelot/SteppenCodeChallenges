@@ -17,11 +17,11 @@ function App() {
           <li>The input to this component is a <code>data</code> property which contains an array of objects with the shape:</li>
           <code>
             &#123;
-            <br/>
+            <br />
             &nbsp;&nbsp;title: string
-            <br/>
+            <br />
             &nbsp;&nbsp;content: string[]
-            <br/>
+            <br />
             &#125;
           </code>
           <li>The left pane contains a list of all the <code>title</code>s.</li>
@@ -31,8 +31,8 @@ function App() {
         <p>Use <code>bulma</code> classes for styling - the library is included in the bundle already.</p>
       </div>
 
-      <h3 className="title is-4">Test</h3>
-      <TwoPaneList data={[
+
+      <TwoPaneList books={[
         {
           title: "The Second Stage Turbine Blade",
           content: [
